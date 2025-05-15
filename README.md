@@ -1,4 +1,4 @@
-# arXiv Paper Classifier
+# Sentiment Analysis Web App
 
 This is a Sentiment Analysis Web App that allows users to input text and receive sentiment classification (e.g., Positive, Negative). It uses a Transformer-based deep learning model and integrates a full ML lifecycle stack.
 
@@ -19,28 +19,20 @@ I have made a detailed user manual for this app. It is saved as Sentiment_Analys
 
 ## Categories
 
-The classifier supports the following academic categories:
-
-1. Astrophysics
-2. Condensed Matter Physics
-3. Computer Science
-4. Electrical Engineering and Systems Science
-5. High Energy Physics - Phenomenology
-6. High Energy Physics - Theory
-7. Mathematics
-8. Physics (General)
-9. Quantum Physics
-10. Statistics
+The classifier as of now supports only English language text as it was trained on only English Language. 
 
 ## Features
 
-- **PDF Upload**: Extract title and abstract from research papers
-- **Classification**: Categorize papers into 10 academic disciplines
-- **User Feedback**: Collect corrections when predictions are wrong
-- **Continuous Learning**: Automatically retrain models when enough feedback is collected
-- **Sample predictions**: In app's second tab, predictions on 30 test samples can be seen
-- **Model Monitoring**: Automatically serve the best-performing model from mlflow runs
-- **Metrics Dashboard**: Track API usage and performance with Prometheus and Grafana
+| Feature                   | Description                                                                                     |
+| ------------------------- | ----------------------------------------------------------------------------------------------- |
+| **Real-time Predictions** | Sentiment output with confidence score instantly displayed.                                     |
+| **Feedback Loop**         | User feedback triggers retraining after a threshold (e.g., 2 submissions).                      |
+| **Auto-Retraining**       | Model retrains automatically with appended feedback data.                                       |
+| **Model Versioning**      | MLflow manages multiple versions; models can be promoted/demoted using aliases like `champion`. |
+| **Observability**         | Prometheus metrics on API usage and latency for monitoring.                                     |
+| **Data Versioning**       | DVC ensures all data changes (training, feedback) are tracked and reproducible.                 |
+| **Code Tracking**         | Git ensures all changes to code, configs, and models are traceable.                             |
+
 
 ## Project Structure
 
