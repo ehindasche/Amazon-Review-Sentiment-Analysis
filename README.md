@@ -86,7 +86,7 @@ Amazon-Review-Sentiment-Analysis/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YashG2003/arXiv_papers_classification_app.git
+git clone https://github.com/ehindasche/Amazon-Review-Sentiment-Analysis.git
 ```
 
 Create and activate a virtual environment:
@@ -101,6 +101,11 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+Initialize Git:
+
+```bash
+git init
+```
 
 Initialize DVC:
 
@@ -111,13 +116,19 @@ dvc init
 Train the initial model:
 
 ```bash
-dvc repro train
+dvc repro train_model
+```
+
+Run MLflow:
+
+```bash
+mlflow ui
 ```
 
 Run the application:
 
 ```bash
-python -m app.run
+streamlit run app.py
 ```
 
 Start node_exporter in your system. Start prometheus using config file as prometheus.yml and start the docker image of grafana. The grafana dashboard should look like grafana_dashboard_scrrenshot.png image file.
@@ -142,10 +153,26 @@ Access the services:
 
 ### Paper Classification
 
-1. Navigate to http://localhost:8501
-2. Upload a research paper PDF
-3. View the predicted category
-4. Provide feedback, if the prediction is incorrect select the correct category
+### 🧪 How to Use the Application
+**Access the Streamlit Frontend:**
+
+- Navigate to http://localhost:8501 in your web browser.
+
+**Input Text for Analysis:**
+
+- Enter the text you wish to analyze in the provided input box and click "Analyze".
+
+**View Results:**
+
+- The application will display the sentiment classification along with a confidence score.
+
+**Provide Feedback:**
+
+- If the prediction is incorrect, select the correct sentiment from the dropdown, add optional comments, and submit feedback.
+
+**Monitor Performance:**
+
+- Access Grafana at http://localhost:3000 to view application metrics and performance dashboards.
 
 ### Model Training and Fine-tuning
 
@@ -174,13 +201,12 @@ dvc repro check_feedback
 
 The application exposes the following metrics at http://localhost:8000/metrics:
 
-- `unique_users_total`: Unique users by IP address
-- `classify_pdf_requests_total`: Total number of classification requests
-- `classify_pdf_latency_seconds`: Classification request latency in seconds
-- `feedback_requests_total`: Total number of feedback submissions
-- `feeedback_latency_seconds`: Feedback request latency in seconds
-- `samples_requests_total`: Total number of sample prediction requests
-- `samples_latency_seconds`: Sample prediction request latency in seconds
+| Metric Name                | Type        | Description                                                                                                |
+| -------------------------- | ----------- | ---------------------------------------------------------------------------------------------------------- |
+| `api_requests_total`       | `Counter`   | Total number of API requests received by the `/analyze` endpoint. Increments on every call.                |
+| `api_errors_total`         | `Counter`   | Total number of errors/exceptions thrown during prediction. Increments when an error occurs in `/analyze`. |
+| `request_duration_seconds` | `Histogram` | Time taken to process each `/analyze` request (end-to-end latency). Captures performance distribution.     |
+
 
 ### Grafana Dashboards
 
