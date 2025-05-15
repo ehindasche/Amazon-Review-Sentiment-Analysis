@@ -37,32 +37,31 @@ The classifier as of now supports only English language text as it was trained o
 ## Project Structure
 
 ```
-arxiv-classifier/
-├── app/
-│   ├── backend/
-│   │   ├── main.py             # FastAPI backend server
-│   │   ├── mlflow_utils.py     # MLflow model loading utilities
-│   │   ├── pdf_extractor.py    # extraction of title and abstract from pdf
-│   │   ├── tasks.py            # Background tasks (feedback monitoring, model updates)
-│   ├── frontend/
-│   │   ├── app.py              # Streamlit frontend
-│   ├── run.py                  # Script to run all services
-├── data/
-│   ├── feedback/
-│   │   ├── user_corrections.csv # User feedback storage
-│   ├── processed/              # Processed datasets
-│   ├── raw/                    # Raw datasets
-├── data_processing/            # Data preprocessing modules
-├── model/                      # Model definition and training code
-├── pipelines/                  # DVC pipeline definitions
-│   ├── fine_tune.py            # Fine-tuning with user feedback
-│   ├── train.py                # Initial model training
-├── prometheus.yml              # Prometheus configuration
-├── docker-compose.yml          # Docker Compose configuration
-├── Dockerfile                  # Docker image definition
-├── requirements.txt            # Python dependencies
-├── .dockerignore               # Docker build exclusions
-├── dvc.yaml                    # DVC pipeline definition
+Amazon-Review-Sentiment-Analysis/
+├── .dvc/                      # DVC metadata for data versioning
+├── .dvcignore                 # DVC ignore file
+├── Dockerfile.api             # Dockerfile for FastAPI backend
+├── Dockerfile.streamlit       # Dockerfile for Streamlit frontend
+├── README.md                  # Project overview and instructions
+├── Sentiment_Analysis_App_User_Manual.pdf  # Detailed user manual
+├── app.env                    # Environment variables for the application
+├── docker-compose.yaml        # Docker Compose configuration
+├── dvc.lock                   # DVC lock file for reproducibility
+├── dvc.yaml                   # DVC pipeline stages and dependencies
+├── logs/                      # Directory for application logs
+├── monitoring/
+    ├── prometheus.yaml        # Monitoring configurations (e.g., Prometheus, Grafana)
+├── requirements.txt           # Python dependencies
+├── sentiment-analysis-with-hugging-face.ipynb  # Jupyter notebook for model development
+└── src/                       # Source code directory
+    ├── api/                   
+        ├── main.py            # FastAPI backend script
+    └── data/
+        ├── load_data.py       # loading and pre-processing data         
+    └── models/
+        ├── train_model.py     # Model training script
+    └── ui/                     
+        ├── app.py             # Streamlit application script
 ```
 
 ## Technologies Used
