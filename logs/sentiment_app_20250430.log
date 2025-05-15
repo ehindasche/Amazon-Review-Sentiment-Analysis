@@ -1,0 +1,216 @@
+2025-04-30 02:48:56,701 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 02:48:56,711 - sentiment-analysis-ui - INFO - First run - loading model for this session
+2025-04-30 02:48:56,711 - sentiment-analysis-ui - INFO - Attempting to load model sentiment-analysis@champion from MLflow Registry
+2025-04-30 02:48:56,712 - sentiment-analysis-ui - INFO - MLflow tracking URI set to: http://localhost:5000
+2025-04-30 02:49:07,395 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 02:49:07,551 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 02:49:07,551 - sentiment-analysis-ui - INFO - Processing text: 'helo'
+2025-04-30 02:49:08,133 - sentiment-analysis-ui - INFO - Prediction result: LABEL_1 with confidence 0.5508 (took 0.58s)
+2025-04-30 02:49:08,141 - sentiment-analysis-ui - INFO - Displayed positive sentiment result to user
+2025-04-30 02:49:25,129 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 02:49:25,158 - sentiment-analysis-ui - INFO - Feedback saved: {'text': 'helo', 'label': 'label_0', 'feedback_text': 'true', 'timestamp': '2025-04-30T02:49:25.131548', 'original_prediction': 'LABEL_1', 'original_confidence': 0.5507735013961792}
+2025-04-30 02:50:57,792 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 02:50:57,995 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 02:50:57,997 - sentiment-analysis-ui - INFO - Processing text: 'hell'
+2025-04-30 02:50:58,036 - sentiment-analysis-ui - INFO - Prediction result: LABEL_1 with confidence 0.5429 (took 0.04s)
+2025-04-30 02:50:58,042 - sentiment-analysis-ui - INFO - Displayed positive sentiment result to user
+2025-04-30 02:51:02,374 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 02:51:02,381 - sentiment-analysis-ui - INFO - Feedback saved: {'text': 'hell', 'label': 'label_0', 'feedback_text': 'true', 'timestamp': '2025-04-30T02:51:02.381860', 'original_prediction': 'LABEL_1', 'original_confidence': 0.5429162979125977}
+2025-04-30 02:51:02,396 - sentiment-analysis-ui - INFO - Starting retraining process
+2025-04-30 03:01:28,267 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 03:01:28,275 - sentiment-analysis-ui - INFO - First run - loading model for this session
+2025-04-30 03:01:28,279 - sentiment-analysis-ui - INFO - Attempting to load latest version of model sentiment-analysis
+2025-04-30 03:01:28,286 - sentiment-analysis-ui - INFO - MLflow tracking URI set to: http://localhost:5000
+2025-04-30 03:01:30,441 - sentiment-analysis-ui - INFO - Loading model version 4
+2025-04-30 03:01:42,855 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 03:01:43,017 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 03:01:43,019 - sentiment-analysis-ui - INFO - Processing text: 'helo'
+2025-04-30 03:01:43,648 - sentiment-analysis-ui - INFO - Prediction result: LABEL_1 with confidence 0.5508 (took 0.63s)
+2025-04-30 03:01:43,656 - sentiment-analysis-ui - INFO - Displayed positive sentiment result to user
+2025-04-30 03:02:23,667 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 03:02:23,903 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 03:02:23,908 - sentiment-analysis-ui - INFO - Processing text: 'hell'
+2025-04-30 03:02:23,929 - sentiment-analysis-ui - INFO - Prediction result: LABEL_1 with confidence 0.5429 (took 0.02s)
+2025-04-30 03:02:23,934 - sentiment-analysis-ui - INFO - Displayed positive sentiment result to user
+2025-04-30 03:02:31,032 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 03:02:31,222 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 03:02:31,222 - sentiment-analysis-ui - INFO - Processing text: 'crazy'
+2025-04-30 03:02:31,262 - sentiment-analysis-ui - INFO - Prediction result: LABEL_1 with confidence 0.5630 (took 0.04s)
+2025-04-30 03:02:31,269 - sentiment-analysis-ui - INFO - Displayed positive sentiment result to user
+2025-04-30 03:02:35,159 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 03:02:35,349 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 03:02:35,357 - sentiment-analysis-ui - INFO - Processing text: 'bad'
+2025-04-30 03:02:35,389 - sentiment-analysis-ui - INFO - Prediction result: LABEL_0 with confidence 0.8176 (took 0.03s)
+2025-04-30 03:02:35,401 - sentiment-analysis-ui - INFO - Displayed negative sentiment result to user
+2025-04-30 13:27:56,398 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:27:56,417 - sentiment-analysis-ui - INFO - First run - loading model for this session
+2025-04-30 13:27:56,422 - sentiment-analysis-ui - INFO - Attempting to load latest version of model sentiment-analysis
+2025-04-30 13:27:56,422 - sentiment-analysis-ui - INFO - MLflow tracking URI set to: http://localhost:5000
+2025-04-30 13:27:58,684 - sentiment-analysis-ui - INFO - Loading model version 4
+2025-04-30 13:28:22,133 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:28:22,399 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:28:22,402 - sentiment-analysis-ui - INFO - Processing text: 'helo'
+2025-04-30 13:28:23,303 - sentiment-analysis-ui - INFO - Prediction result: LABEL_1 with confidence 0.5508 (took 0.90s)
+2025-04-30 13:28:23,368 - sentiment-analysis-ui - INFO - Displayed positive sentiment result to user
+2025-04-30 13:28:30,223 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:28:30,256 - sentiment-analysis-ui - INFO - Feedback saved: {'text': 'helo', 'label': 'label_0', 'feedback_text': 'bad', 'timestamp': '2025-04-30T13:28:30.231881', 'original_prediction': 'LABEL_1', 'original_confidence': 0.5507735013961792, 'model_version': '4'}
+2025-04-30 13:28:30,278 - sentiment-analysis-ui - ERROR - Feedback submission failed: Error tokenizing data. C error: Expected 6 fields in line 4, saw 8
+Traceback (most recent call last):
+  File "D:\Python\AppDev\src\ui\app.py", line 204, in <module>
+    feedback_count = len(pd.read_csv(FEEDBACK_FILE))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\myvenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\myvenv\Lib\site-packages\pandas\io\parsers\readers.py", line 626, in _read
+    return parser.read(nrows)
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python\myvenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1923, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\myvenv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 838, in pandas._libs.parsers.TextReader.read_low_memory
+  File "parsers.pyx", line 905, in pandas._libs.parsers.TextReader._read_rows
+  File "parsers.pyx", line 874, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "parsers.pyx", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "parsers.pyx", line 2061, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 6 fields in line 4, saw 8
+
+2025-04-30 13:29:33,206 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:29:33,405 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:29:33,415 - sentiment-analysis-ui - INFO - Processing text: 'hell'
+2025-04-30 13:29:34,500 - sentiment-analysis-ui - INFO - Prediction result: LABEL_1 with confidence 0.5429 (took 1.08s)
+2025-04-30 13:29:34,506 - sentiment-analysis-ui - INFO - Displayed positive sentiment result to user
+2025-04-30 13:29:40,593 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:29:40,880 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:29:40,896 - sentiment-analysis-ui - INFO - Processing text: 'very bad'
+2025-04-30 13:29:40,912 - sentiment-analysis-ui - INFO - Prediction result: LABEL_0 with confidence 0.9475 (took 0.02s)
+2025-04-30 13:29:40,921 - sentiment-analysis-ui - INFO - Displayed negative sentiment result to user
+2025-04-30 13:29:45,875 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:29:45,884 - sentiment-analysis-ui - INFO - Feedback saved: {'text': 'very bad', 'label': 'label_1', 'feedback_text': '', 'timestamp': '2025-04-30T13:29:45.884393', 'original_prediction': 'LABEL_0', 'original_confidence': 0.9474782943725586, 'model_version': '4'}
+2025-04-30 13:29:45,892 - sentiment-analysis-ui - ERROR - Feedback submission failed: Error tokenizing data. C error: Expected 6 fields in line 4, saw 8
+Traceback (most recent call last):
+  File "D:\Python\AppDev\src\ui\app.py", line 204, in <module>
+    feedback_count = len(pd.read_csv(FEEDBACK_FILE))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\myvenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\myvenv\Lib\site-packages\pandas\io\parsers\readers.py", line 626, in _read
+    return parser.read(nrows)
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python\myvenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1923, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\myvenv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 838, in pandas._libs.parsers.TextReader.read_low_memory
+  File "parsers.pyx", line 905, in pandas._libs.parsers.TextReader._read_rows
+  File "parsers.pyx", line 874, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "parsers.pyx", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "parsers.pyx", line 2061, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 6 fields in line 4, saw 8
+
+2025-04-30 13:31:23,446 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:31:23,446 - sentiment-analysis-ui - INFO - First run - loading model for this session
+2025-04-30 13:31:23,453 - sentiment-analysis-ui - INFO - Attempting to load latest version of model sentiment-analysis
+2025-04-30 13:31:23,453 - sentiment-analysis-ui - INFO - MLflow tracking URI set to: http://localhost:5000
+2025-04-30 13:31:25,574 - sentiment-analysis-ui - INFO - Loading model version 4
+2025-04-30 13:31:38,489 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:31:38,871 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:31:38,871 - sentiment-analysis-ui - INFO - Processing text: 'helo'
+2025-04-30 13:31:39,123 - sentiment-analysis-ui - INFO - Prediction result: LABEL_1 with confidence 0.5508 (took 0.24s)
+2025-04-30 13:31:39,129 - sentiment-analysis-ui - INFO - Displayed positive sentiment result to user
+2025-04-30 13:31:43,043 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:31:43,055 - sentiment-analysis-ui - INFO - Feedback saved: {'text': 'helo', 'label': 'label_0', 'feedback_text': 'dvwg', 'timestamp': '2025-04-30T13:31:43.043041', 'original_prediction': 'LABEL_1', 'original_confidence': 0.5507735013961792, 'model_version': '4'}
+2025-04-30 13:31:43,059 - sentiment-analysis-ui - ERROR - Feedback submission failed: Error tokenizing data. C error: Expected 6 fields in line 4, saw 8
+Traceback (most recent call last):
+  File "D:\Python\AppDev\src\ui\app.py", line 204, in <module>
+    feedback_count = len(pd.read_csv(FEEDBACK_FILE))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\myvenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\myvenv\Lib\site-packages\pandas\io\parsers\readers.py", line 626, in _read
+    return parser.read(nrows)
+           ^^^^^^^^^^^^^^^^^^
+  File "D:\Python\myvenv\Lib\site-packages\pandas\io\parsers\readers.py", line 1923, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\myvenv\Lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 234, in read
+    chunks = self._reader.read_low_memory(nrows)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "parsers.pyx", line 838, in pandas._libs.parsers.TextReader.read_low_memory
+  File "parsers.pyx", line 905, in pandas._libs.parsers.TextReader._read_rows
+  File "parsers.pyx", line 874, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "parsers.pyx", line 891, in pandas._libs.parsers.TextReader._check_tokenize_status
+  File "parsers.pyx", line 2061, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Expected 6 fields in line 4, saw 8
+
+2025-04-30 13:33:33,029 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:33:33,029 - sentiment-analysis-ui - INFO - First run - loading model for this session
+2025-04-30 13:33:33,029 - sentiment-analysis-ui - INFO - Attempting to load latest version of model sentiment-analysis
+2025-04-30 13:33:33,044 - sentiment-analysis-ui - INFO - MLflow tracking URI set to: http://localhost:5000
+2025-04-30 13:33:35,229 - sentiment-analysis-ui - INFO - Loading model version 4
+2025-04-30 13:33:53,017 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:33:53,235 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:33:53,241 - sentiment-analysis-ui - INFO - Processing text: 'helo'
+2025-04-30 13:33:53,641 - sentiment-analysis-ui - INFO - Prediction result: LABEL_1 with confidence 0.5508 (took 0.40s)
+2025-04-30 13:33:53,643 - sentiment-analysis-ui - INFO - Displayed positive sentiment result to user
+2025-04-30 13:33:57,324 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:33:57,341 - sentiment-analysis-ui - INFO - Feedback saved: {'text': 'helo', 'label': 'label_0', 'feedback_text': 'sgegqe', 'timestamp': '2025-04-30T13:33:57.332622', 'original_prediction': 'LABEL_1', 'original_confidence': 0.5507735013961792, 'model_version': '4'}
+2025-04-30 13:35:18,505 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:35:18,728 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:35:18,737 - sentiment-analysis-ui - INFO - Processing text: 'okayish'
+2025-04-30 13:35:19,814 - sentiment-analysis-ui - INFO - Prediction result: LABEL_1 with confidence 0.5782 (took 1.08s)
+2025-04-30 13:35:19,822 - sentiment-analysis-ui - INFO - Displayed positive sentiment result to user
+2025-04-30 13:35:31,872 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:35:31,877 - sentiment-analysis-ui - INFO - Feedback saved: {'text': 'okayish', 'label': 'label_0', 'feedback_text': 'incorrect', 'timestamp': '2025-04-30T13:35:31.875968', 'original_prediction': 'LABEL_1', 'original_confidence': 0.5781505107879639, 'model_version': '4'}
+2025-04-30 13:35:31,881 - sentiment-analysis-ui - INFO - Starting retraining process
+2025-04-30 13:40:28,106 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:40:28,115 - sentiment-analysis-ui - INFO - First run - loading model for this session
+2025-04-30 13:40:28,124 - sentiment-analysis-ui - INFO - Attempting to load latest version of model sentiment-analysis
+2025-04-30 13:40:28,124 - sentiment-analysis-ui - INFO - MLflow tracking URI set to: http://localhost:5000
+2025-04-30 13:40:30,454 - sentiment-analysis-ui - INFO - Loading model version 4
+2025-04-30 13:40:50,543 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:40:50,785 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:40:50,785 - sentiment-analysis-ui - INFO - Processing text: 'okayish'
+2025-04-30 13:40:51,104 - sentiment-analysis-ui - INFO - Prediction result: LABEL_1 with confidence 0.5782 (took 0.31s)
+2025-04-30 13:40:51,104 - sentiment-analysis-ui - INFO - Displayed positive sentiment result to user
+2025-04-30 13:40:54,945 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 13:40:54,962 - sentiment-analysis-ui - INFO - Feedback saved: {'text': 'okayish', 'label': 'label_0', 'feedback_text': 'fwgwg', 'timestamp': '2025-04-30T13:40:54.956151', 'original_prediction': 'LABEL_1', 'original_confidence': 0.5781505107879639, 'model_version': '4'}
+2025-04-30 13:40:54,970 - sentiment-analysis-ui - INFO - Starting retraining process
+2025-04-30 15:30:36,007 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 15:30:36,010 - sentiment-analysis-ui - INFO - First run - loading model for this session
+2025-04-30 15:30:36,010 - sentiment-analysis-ui - INFO - Attempting to load latest version of model sentiment-analysis
+2025-04-30 15:30:36,010 - sentiment-analysis-ui - INFO - MLflow tracking URI set to: http://localhost:5000
+2025-04-30 15:30:38,109 - sentiment-analysis-ui - INFO - Loading model version 4
+2025-04-30 16:03:58,313 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 16:03:58,588 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 16:03:58,591 - sentiment-analysis-ui - INFO - Processing text: 'the product was good. liked it'
+2025-04-30 16:04:00,150 - sentiment-analysis-ui - INFO - Prediction result: LABEL_1 with confidence 0.9829 (took 1.56s)
+2025-04-30 16:04:00,150 - sentiment-analysis-ui - INFO - Displayed positive sentiment result to user
+2025-04-30 16:04:37,097 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 16:04:37,121 - sentiment-analysis-ui - INFO - Feedback saved: {'text': 'the product was good. liked it', 'label': 'label_0', 'feedback_text': 'incorrect label', 'timestamp': '2025-04-30T16:04:37.101042', 'original_prediction': 'LABEL_1', 'original_confidence': 0.9829055070877075, 'model_version': '4'}
+2025-04-30 16:05:07,803 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 16:05:07,993 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 16:05:07,994 - sentiment-analysis-ui - INFO - Processing text: 'bad product'
+2025-04-30 16:05:09,068 - sentiment-analysis-ui - INFO - Prediction result: LABEL_0 with confidence 0.9865 (took 1.07s)
+2025-04-30 16:05:09,068 - sentiment-analysis-ui - INFO - Displayed negative sentiment result to user
+2025-04-30 16:05:13,945 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 16:05:13,955 - sentiment-analysis-ui - INFO - Feedback saved: {'text': 'bad product', 'label': 'label_1', 'feedback_text': 'incorrect label', 'timestamp': '2025-04-30T16:05:13.950862', 'original_prediction': 'LABEL_0', 'original_confidence': 0.9864678382873535, 'model_version': '4'}
+2025-04-30 16:05:13,962 - sentiment-analysis-ui - INFO - Starting retraining process
+2025-04-30 16:15:49,758 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 16:15:49,766 - sentiment-analysis-ui - INFO - First run - loading model for this session
+2025-04-30 16:15:49,767 - sentiment-analysis-ui - INFO - Attempting to load latest version of model sentiment-analysis
+2025-04-30 16:15:49,767 - sentiment-analysis-ui - INFO - MLflow tracking URI set to: http://localhost:5000
+2025-04-30 16:15:52,012 - sentiment-analysis-ui - INFO - Loading model version 4
+2025-04-30 16:16:23,953 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 16:16:24,182 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application
+2025-04-30 16:16:24,187 - sentiment-analysis-ui - INFO - Processing text: '12345'
+2025-04-30 16:16:24,513 - sentiment-analysis-ui - INFO - Prediction result: LABEL_1 with confidence 0.6028 (took 0.32s)
+2025-04-30 16:16:24,516 - sentiment-analysis-ui - INFO - Displayed positive sentiment result to user
+2025-04-30 16:16:59,012 - sentiment-analysis-ui - INFO - Starting Sentiment Analysis Streamlit application

@@ -1,0 +1,36 @@
+schema: '2.0'
+stages:
+  process_train_data:
+    cmd: python src/data/load_data.py --input data/raw/train.ft.txt.bz2 --output data/processed/train.csv
+      --num-lines 10000
+    deps:
+    - path: data/raw/train.ft.txt.bz2
+      hash: md5
+      md5: 828758acdafd487421397fb17c0e5e4f
+      size: 464275989
+    - path: src/data/load_data.py
+      hash: md5
+      md5: 346a83a873f47903d0f1450b803b26e5
+      size: 1488
+    outs:
+    - path: data/processed/train.csv
+      hash: md5
+      md5: a6645b46139beb46420d2deb80038da8
+      size: 4523014
+  process_test_data:
+    cmd: python src/data/load_data.py --input data/raw/test.ft.txt.bz2 --output data/processed/test.csv
+      --num-lines 2000
+    deps:
+    - path: data/raw/test.ft.txt.bz2
+      hash: md5
+      md5: 857269324797199268658e4d0ee925dd
+      size: 52653659
+    - path: src/data/load_data.py
+      hash: md5
+      md5: 346a83a873f47903d0f1450b803b26e5
+      size: 1488
+    outs:
+    - path: data/processed/test.csv
+      hash: md5
+      md5: d31b207840e73d3850cc09b9ddba3182
+      size: 898601
