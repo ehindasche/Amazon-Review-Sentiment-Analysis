@@ -4,7 +4,7 @@ A machine learning application that classifies research papers into 10 categorie
 
 ## Roll No and Name
 
-Roll No: `ME21B062`, Name: Yash Gawande
+Roll No: `ME21B057`, Name: Eshan Kulkarni
 
 ## Dataset
 
@@ -83,6 +83,7 @@ arxiv-classifier/
 - **Grafana**: Metrics visualization
 - **Docker**: Containerization
 
+![Image](https://github.com/user-attachments/assets/a6986b68-e4c1-405d-a960-0a2a33ea5a04)
 ## Installation
 
 ### Local Setup
