@@ -1,20 +1,21 @@
 # arXiv Paper Classifier
 
-A machine learning application that classifies research papers into 10 categories based on their title and abstract. Several MLOps tools and practices are used in this application. The system includes continuous learning from user feedback, MLflow experiment tracking, and monitoring with Prometheus and Grafana.
+This is a Sentiment Analysis Web App that allows users to input text and receive sentiment classification (e.g., Positive, Negative). It uses a Transformer-based deep learning model and integrates a full ML lifecycle stack.
 
 ## Roll No and Name
 
 Roll No: `ME21B057`, Name: Eshan Kulkarni
 
-## Dataset
+## Training Dataset
 
-arXiv-10 dataset: https://paperswithcode.com/dataset/arxiv-10
+customer reviews dataset: [https://paperswithcode.com/dataset/arxiv-10](https://www.kaggle.com/datasets/bittlingmayer/amazonreviews)
+format of the dataset: __label__<X> __label__<Y> ... <Text>
 
-Benchmark dataset for abstracts and titles of 100,000 ArXiv scientific papers. This dataset contains 10 classes and is balanced (exactly 10,000 per class)
+This dataset consists of a few million Amazon customer reviews (input text) and star ratings (output labels) for learning how to train fastText for sentiment analysis. 
 
 ## User Manual
 
-I have made a detailed user manual for this app. It is saved as mlops_app_user_manual.pdf in this repository. Please go through it after setup of app.
+I have made a detailed user manual for this app. It is saved as Sentiment_Analysis_App_User_Manual.pdf in this repository. Please go through it after setup of app.
 
 ## Categories
 
@@ -74,14 +75,17 @@ arxiv-classifier/
 
 ## Technologies Used
 
-- **FastAPI**: Backend API server
-- **Streamlit**: Frontend user interface
-- **PyTorch/BERT-Tiny**: Text classification model
-- **MLflow**: Experiment tracking and model registry
-- **DVC**: Data and model versioning
-- **Prometheus**: Metrics collection
-- **Grafana**: Metrics visualization
-- **Docker**: Containerization
+| Tool / Library                 | Purpose                                                                             |
+| ------------------------------ | ----------------------------------------------------------------------------------- |
+| **FastAPI**                    | REST API for serving sentiment analysis predictions.                                |
+| **MLflow**                     | Model lifecycle management, version control, and deployment.                        |
+| **Streamlit**                  | Interactive web UI for non-technical users.                                         |
+| **Prometheus**                 | Metrics collection and monitoring (via `/metrics`).                                 |
+| **Pydantic**                   | API request data validation.                                                        |
+| **Git**                        | Source code tracking and version control.                                           |
+| **DVC (Data Version Control)** | Tracks changes in training data and feedback datasets for reproducible experiments. |
+| **Docker / Docker Compose**    | Containerization and service orchestration (Streamlit, MLflow, etc.).               |
+
 
 ![Image](https://github.com/user-attachments/assets/a6986b68-e4c1-405d-a960-0a2a33ea5a04)
 ## Installation
