@@ -174,25 +174,12 @@ Access the services:
 
 - Access Grafana at http://localhost:3000 to view application metrics and performance dashboards.
 
-### Model Training and Fine-tuning
+### Model Training
 
 Initial training:
 
 ```bash
-python -m pipelines.train --data_version v1 --run_experiments
-```
-
-Fine-tuning with user feedback:
-
-```bash
-python -m pipelines.fine_tune --check_feedback
-```
-
-Or run training and fine tuning using DVC commands:
-
-```bash
-dvc repro train
-dvc repro check_feedback
+dvc repro train_model
 ```
 
 ## Monitoring
@@ -208,14 +195,58 @@ The application exposes the following metrics at http://localhost:8000/metrics:
 | `request_duration_seconds` | `Histogram` | Time taken to process each `/analyze` request (end-to-end latency). Captures performance distribution.     |
 
 
-### Grafana Dashboards
+### 📊 Grafana Dashboard Panels
+**1. API Request Volume**
+Metric: api_requests_total
 
-Import the provided dashboard JSON to visualize:
+Panel Type: Time-series graph or single stat
 
-- API requests count
-- Request latencies (95th percentile)
-- Unique user counts
-- System resource usage
+Description: Tracks total number of /analyze requests over time.
+
+Insight: Understand app usage trends and traffic volume.
+
+**2. API Error Rate**
+Metric: api_errors_total
+
+Panel Type: Time-series graph or bar chart
+
+Description: Tracks number of prediction errors over time.
+
+Insight: Detect model serving failures or system issues.
+
+**3. Request Latency (Duration)**
+Metric: request_duration_seconds
+
+Panel Type: Histogram (bucket view), percentile (95th/99th), or heatmap
+
+Description: Shows how long each /analyze request takes.
+
+Insight: Monitor inference performance and identify bottlenecks.
+
+**4. Error Rate %**
+Formula: (rate(api_errors_total[5m]) / rate(api_requests_total[5m])) * 100
+
+Panel Type: Line graph or gauge
+
+Description: Percentage of requests resulting in errors.
+
+Insight: Spot spikes in system instability.
+
+**5. Uptime Monitoring**
+Metric: Use custom Prometheus rules or health check probes (/health)
+
+Panel Type: Status panel (green/red)
+
+Description: Indicates if the FastAPI backend is healthy.
+
+Insight: Instantly see if the model serving is down.
+
+**6. Model Info Panel**
+Static Info from /model-info
+
+Description: Show current model name, version, alias (champion), and run ID.
+
+Insight: Know which model is currently deployed.
 
 ## Continuous Learning
 
